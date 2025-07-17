@@ -1,0 +1,91 @@
+.signupBlock {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  background-color: #161616;
+  .leftPicBlock {
+    width: 50%;
+  }
+  .signup {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    .createText {
+      text-align: left;
+    }
+    .letStarted {
+      margin: 1.11vw 0vw 1.5vw 0vw;
+    }
+    // .alreadyMember {
+    //   margin-bottom: 1vw;
+    // }
+    // .inputWidth {
+    //   margin: 1.111vw 0vw 1.111vw 0vw;
+    //   background-color: #454545;
+    // }
+    .createBtn {
+      width: 33vw;
+      height: 60px;
+      margin-top: 1vw;
+      margin-bottom: 1.667vw;
+    }
+    .byClicking {
+      display: flex;
+      color: #fff;
+      margin-bottom: 8px;
+      width: 80%;
+
+    }
+    .lastRowText {
+      display: flex;
+      color: #fff;
+      margin-bottom: 1.667vw;
+    }
+    .lastRowLogo {
+      display: flex;
+      justify-content: left;
+      .iconSize {
+        width: 48px;
+        height: 48px;
+        cursor: pointer;
+      }
+    }
+  }
+}
+@media only screen and (min-width: 300px) and (max-width: 991px) {
+  .signupBlock {
+    margin: 0px;
+    padding: 0px;
+    background-color: #161616;
+    .leftPicBlock {
+      display: none;
+    }
+    .signup {
+   
+      width: 100%;
+      height: 100vh;
+   .innerSignup{
+     width:80%;
+     .createBtn {
+      width: 80%;
+      height: 60px;
+      margin-top: 2vw;
+      margin-bottom: 2.667vw;
+    }
+   }
+      .lastRowText {
+        width:80%;
+      }
+
+      .inputWidth {
+      width:80%;
+      }
+    }
+  }
+}
+// @media only screen and (min-width: 575px) and (max-width: 767px) {
+// }
+// @media only screen and (min-width: 300px) and (max-width: 574px) {
+// }

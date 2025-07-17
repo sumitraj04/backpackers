@@ -1,0 +1,81 @@
+.busBookingBlock {
+  margin-top:30px;
+  margin-left:10px;
+  .seatOverview {
+    display: flex;
+    .box {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      margin-right: 3vw;
+
+      .boxWidth1 {
+        width: 24px;
+        height: 24px;
+        border-radius: 6px;
+        background-color: #16056b;
+      }
+      .boxWidth2 {
+        width: 24px;
+        border-radius: 6px;
+        height: 24px;
+        background-color: #d5436a;
+      }
+      .boxWidth3 {
+        border-radius: 6px;
+        width: 24px;
+        height: 24px;
+        background-color: #c4c4c4;
+      }
+    }
+  }
+  .busBorder {
+    margin: 50px;
+    border: 2px solid #c4c4c4;
+    border-radius: 24px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 232px;
+    .steeringImg {
+      display: flex;
+      width: 100%;
+      justify-content: space-between;
+      padding: 21px 24px 24px 24px;
+      .img {
+        width: 24px;
+        height: 24px;
+      }
+    }
+    .innerBus {
+      background-color: #c4c4c4;
+
+      width: 24px;
+      height: 24px;
+      cursor: pointer;
+      margin: 16px;
+      color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 4px;
+      &:nth-child(3n + 3),
+      &:nth-child(3n + 6),
+      &:nth-child(3n + 9),
+      &:nth-child(3n + 12),
+      &:nth-child(3n + 15),
+      &:nth-child(3n + 18) {
+        margin-right: 40px; // Adjust the spacing as needed
+      }
+      &.selected {
+        background-color: #d5436a;
+        // Change color for selected seats
+      }
+      &.booked {
+        background-color: #16056b; // Color for already booked seats
+        cursor: not-allowed;
+      }
+    }
+  }
+}

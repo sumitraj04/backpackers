@@ -1,0 +1,13 @@
+.favouritePlaceBlock {
+  margin-bottom: 6.944vw;
+  .leftRightMargin {
+    margin: 0 6.944vw;
+    .holidayPlaces {
+      display: flex;
+      flex-wrap: wrap;
+      column-gap: 2.778vw;
+      margin-top: 2.222vw;
+      row-gap: 3.333vw;
+    }
+  }
+}

@@ -1,0 +1,27 @@
+.helpForm {
+  position: fixed;
+  top: 100px;
+  right: 50px;
+  z-index: 1000;
+  max-width: 300px;
+
+  .headingSection {
+    background-color: #0a9e88;
+    padding: 24px 32px;
+  }
+  .textFieldSection {
+    background-color: #f3f3f3;
+    display: flex;
+    justify-content: center;
+    padding: 24px 24px;
+
+      flex-direction: column;
+    .textFieldInnerBox {
+      width: 100%;
+      .supportTextFiled {
+        width:100%;
+
+      }
+    }
+  }
+}

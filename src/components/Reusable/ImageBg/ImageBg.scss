@@ -1,0 +1,14 @@
+.ImageBg {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .centerTextBox {
+    position: absolute;
+    text-align: center;
+    width: 58vw;
+    .searchBarTopMargin {
+      margin-top: 4.5vw;
+    }
+  }
+}

@@ -1,0 +1,28 @@
+.iconAndImageBlock {
+  display: flex;
+  // align-items: center;
+  margin: 1vw;
+}
+.CompleteDetailsPackage {
+    padding: 10vw;
+    .destinationName{
+        margin-top: 1.667vw;
+    }
+  .costBlock {
+    display: flex;
+    justify-content: baseline;
+  }
+  .lastRow {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.667vw;
+
+    .redText {
+      color: #d13a3a;
+      text-decoration: underline;
+    }
+    .buttonBlock {
+      display: flex;
+    }
+  }
+}

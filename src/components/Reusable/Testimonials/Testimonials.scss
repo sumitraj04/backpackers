@@ -1,0 +1,31 @@
+.testimonialBlock {
+  .whyUsText {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+  }
+  .imageAndText {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    .testimonialImage {
+      width: 42%;
+    }
+    .testimonialText {
+      width: 50%;
+      .doubleQuotes {
+        width: 8%;
+      }
+      .theText {
+        margin-left: 4vw;
+      }
+      .writer {
+        display: flex;
+        align-items: center;
+        margin-left: 4vw;
+        margin-top: 1vw;
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+.textOverImageBlock {
+  .imageBg {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .centerTextBox {
+      position: absolute;
+      text-align: center;
+      width: 58vw;
+      .readTextBlock {
+        // width: 49.236vw;
+      }
+      .updatedDate{
+          text-decoration: underline;
+      }
+    }
+  }
+}

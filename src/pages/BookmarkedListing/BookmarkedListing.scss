@@ -1,0 +1,28 @@
+.bookmarkedListingBlock {
+  .leftRightMargin {
+    margin: 4vw 5.5vw;
+    .tourPackagesBlock {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      margin-bottom: 2vw;
+    }
+    .cardCssOverRiding {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      .firstCardBox {
+        margin: 0px;
+        margin-bottom: 3.8vw;
+      }
+    }
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .packageListingBlock {
+    .firstCardBox {
+     max-width: max-content;
+    }
+  }
+}
+

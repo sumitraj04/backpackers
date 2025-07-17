@@ -1,0 +1,62 @@
+.itinaryBlock {
+  margin-top: 3.194vw;
+  margin-left: 4vw;
+  margin-bottom: 5.556vw;
+  .stepStyle {
+    position: relative;
+    .dayStyle {
+      position: absolute;
+      left: -50px;
+      top: 7px;
+      display: flex;
+      cursor: pointer;
+    }
+    .dayAndTitle {
+      display: flex;
+      justify-content: space-between;
+      cursor: pointer;
+      .title{
+        cursor: pointer;
+      }
+    }
+    .checkInStyle {
+      background-color: #0a9e88;
+      width: max-content;
+      padding: 5px 16px;
+      margin: 21px 0px 29px;
+      border-radius: 40px;
+    }
+    .paragraphTopDownSpacing {
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+    }
+    .imageBlock {
+      position: relative;
+      display: flex;
+      align-items: center;
+      .Image {
+        border-radius: 15px;
+      }
+      .buttonNextPrevious {
+        position: absolute;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        padding: 2vw;
+        .leftButton {
+          background-color: white;
+          border-radius: 50%;
+        }
+        .rightButton {
+          background-color: white;
+          border-radius: 50%;
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 300px) and (max-width: 991px) {
+  .itinaryBlock {
+    margin-left: 10vw;
+  }
+}

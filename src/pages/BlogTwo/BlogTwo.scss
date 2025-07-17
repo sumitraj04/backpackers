@@ -1,0 +1,29 @@
+.blogTwoBlock {
+  margin-top: 93px;
+  .imgAndText {
+    display: inline;
+    .imageBlock {
+      float: left;
+      padding: 0px 30px 20px 0px;
+    }
+    .TextBlock {
+      .headingBlock {
+        padding-top: 4.167vw;
+
+        padding-right: 6.806vw;
+        padding-bottom: 1.667vw;
+      }
+      .paraBlock {
+        padding-left: 2.222vw;
+        padding-right: 2.222vw;
+        text-align: justify;
+      }
+    }
+  }
+  .bloglistMarginBottom {
+    margin: 0vw 5.6vw 8.333vw 5.6vw;
+  }
+  .blogAd{
+    margin: 0vw 5.6vw 8.333vw 5.6vw;
+  }
+}

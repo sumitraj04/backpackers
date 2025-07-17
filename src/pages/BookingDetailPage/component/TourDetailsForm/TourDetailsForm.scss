@@ -1,0 +1,21 @@
+.TourDetailsFormBlock {
+  .fillTextBox {
+    margin-bottom: 3.33vw;
+    margin-top: 3.33vw;
+  }
+  .continueButton {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: 5vw;
+  }
+  .autocompleteWidth{
+    width:22vw;
+  }
+}
+@media only screen and (min-width: 300px) and (max-width: 991px) {
+  .TourDetailsFormBlock {
+    .autocompleteWidth{
+      width:300px;
+    }
+  }
+}

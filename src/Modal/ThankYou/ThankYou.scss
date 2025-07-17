@@ -1,0 +1,39 @@
+.thankYouBlock {
+
+
+  .thankYouInner {
+    background-color: aliceblue;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 32px;
+    .imageTick {
+      display: flex;
+      justify-content: center;
+      .imageClass {
+        width: 140px;
+        height: 140px;
+      }
+    }
+    .thankYouText {
+      font-size: 40px;
+      font-weight: bold;
+      color: #0a9e88;
+    }
+  }
+}
+@media only screen and (min-width: 300px) and (max-width: 574px) {
+    .thankYouBlock{
+        .thankYouInner{
+            width:70%;
+            .imageTick {
+                .imageClass {
+                  width: 72px;
+                  height: 72px;
+                }
+              }
+        }
+    }
+}

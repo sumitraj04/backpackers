@@ -1,0 +1,40 @@
+.contactUsBlock {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .imageContact {
+    min-height: 35vh;
+    width: 100vw;
+  }
+  .contactInnerBlock {
+    position: absolute;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    padding-left: 2vw;
+    .feelFreeTextBox {
+      padding-left: 3vw;
+      text-align: left;
+      width: 50%;
+    }
+    .formBlock {
+      background-color: rgba($color: #fff, $alpha: 0.1);
+      padding-top: 4vw;
+      width: 40%;
+      padding-bottom: 4vw;
+      border-radius: 10px;
+      margin-left: 3vw;
+      .sumbitButtonBox {
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 3vw;
+      }
+    }
+  }
+  .error{
+   text-align: left;
+   padding-left:3vw;
+  }
+}

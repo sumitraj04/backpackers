@@ -1,0 +1,46 @@
+.newDestinationBlock {
+   position: relative;
+  .newDestinationAdd {
+    background-color: #0a9e88;
+    position: absolute;
+    right:-10vw;
+    rotate: 90deg;
+    padding: 1vw 1vw;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1024px) {
+    .newDestinationBlock {
+       .newDestinationAdd {
+         right:-12vw;
+        
+       }
+     }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .newDestinationBlock {
+        .newDestinationAdd {
+          right:-14vw;
+         
+        }
+      }
+
+}
+@media only screen and (min-width: 575px) and (max-width: 767px) {
+    .newDestinationBlock {
+        .newDestinationAdd {
+          right:-15vw;
+          top:-110px;
+        }
+      }
+}
+@media only screen and (min-width: 300px) and (max-width: 574px) {
+    .newDestinationBlock {
+        .newDestinationAdd {
+          right:-23vw;
+         top:-100px;
+        }
+      }
+}

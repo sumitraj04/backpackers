@@ -1,0 +1,20 @@
+.landingPageBlock{
+
+  .leftRigtSpacing{
+      margin-left:5.5vw;
+      margin-right: 5.5vw;
+      .indianTrendingBox{
+        .viewAllButton{
+            display:flex;
+            flex-direction: row-reverse;
+        }
+    }
+    //   this is for the background color of the next and previous button in carousel
+    //   .react-multiple-carousel__arrow{
+    //       background-color:#0A9E88 !important;
+    //     }
+      
+  }
+  
+
+}

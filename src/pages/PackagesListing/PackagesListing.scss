@@ -1,0 +1,39 @@
+.packageListingBlock {
+  .leftRightMargin {
+    margin: 4vw 5.5vw;
+    .tourPackagesBlock {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      margin-bottom: 2vw;
+    }
+    .cardCssOverRiding {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      .firstCardBox {
+        margin: 0px;
+        margin-bottom: 3.8vw;
+      }
+    }
+  }
+}
+@media only screen and (min-width: 1599px) and (max-width: 1800px) {
+}
+@media only screen and (min-width: 1280px) and (max-width: 1600px) {
+}
+@media only screen and (min-width: 1025px) and (max-width: 1279px) {
+}
+@media only screen and (min-width: 992px) and (max-width: 1024px) {
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .packageListingBlock {
+    .firstCardBox {
+     max-width: max-content;
+    }
+  }
+}
+@media only screen and (min-width: 575px) and (max-width: 767px) {
+}
+@media only screen and (min-width: 300px) and (max-width: 574px) {
+}

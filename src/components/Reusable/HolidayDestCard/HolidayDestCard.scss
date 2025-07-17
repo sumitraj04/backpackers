@@ -1,0 +1,42 @@
+.holidayDestination {
+  position: relative;
+  // margin: 1rem;
+
+  .avatar {
+    background-size: cover;
+    border-radius: 5px;
+    max-width: 216px;
+    height: 270px;
+  }
+  .destinyName {
+    color: white;
+    position: absolute;
+    top: 1.375rem;
+    left: 1.25rem;
+  }
+  .bookNow {
+    position: absolute;
+    top: 0rem;
+    left: 0rem;
+    right: 0rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 216px;
+    height: 270px;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  .startNprice {
+    position: absolute;
+    bottom: 0.875rem;
+    left: 1.25rem;
+  }
+  .shade {
+    background-size: cover;
+    border-radius: 5px;
+    max-width: 216px;
+    height: 270px;
+    position: absolute;
+    left: 0;
+  }
+}

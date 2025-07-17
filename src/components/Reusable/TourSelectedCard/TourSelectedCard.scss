@@ -1,0 +1,28 @@
+.tourSelectedBox {
+  display: flex;
+  position: relative;
+
+  .placeNameAndButton {
+    // width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    left: 6vw;
+    right: 10vw;
+    top: 39.583vw;
+    align-items: center;
+    .leftRightButton{
+      display:flex;
+      .leftButton{
+        background-color: white;
+        margin-right: 1vw;
+        border-radius: 50%;
+      
+      }
+      .rightButton{
+        background-color: white;
+        border-radius: 50%;
+      }
+    }
+  }
+}

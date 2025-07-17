@@ -1,0 +1,29 @@
+.additional {
+  margin-bottom: 5vw;
+  .additionalInfo {
+    margin-top: 24px;
+    .carouselBlock {
+      margin-top: 3vw;
+      border: 1px solid #0a9e88;
+      box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.25);
+      border-radius: 10px;
+      .listOfHotels {
+        padding: 2rem;
+        .imageOfHotels {
+          height: 24.028vw;
+          border-radius: 10px;
+        }
+        .hotelNameAndRating {
+          display: flex;
+          flex-wrap: wrap;
+          margin-top: 1rem;
+        }
+        .locationAndName {
+          display: flex;
+          margin-top: 0.5rem;
+          align-items: center;
+        }
+      }
+    }
+  }
+}

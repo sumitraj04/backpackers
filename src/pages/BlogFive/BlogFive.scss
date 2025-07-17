@@ -1,0 +1,28 @@
+.blogFiveBlock {
+  margin: 113px 5.6vw 0vw 5.6vw;
+ .titleWrapper{
+  display: flex;
+  justify-content: center;
+ }
+ .title{
+  margin: 0vw 5.6vw 8.333vw 5.6vw;
+  width: 60%;
+  text-align: center;
+ }
+ .paraOne::first-letter {
+  font-size: 48px;
+ }
+ .paraOne{
+  margin-bottom: 40px;
+ }
+ .paraTwo{
+  margin-top: 40px;
+ }
+ .bloglistMarginBottom {
+  margin: 0vw 0vw 8.333vw 0vw;
+}
+.blogAd{
+  margin: 0vw 0vw 8.333vw 0vw;
+}
+}
+

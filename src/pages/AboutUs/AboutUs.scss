@@ -1,0 +1,52 @@
+.aboutUsBlock {
+  margin-top: 93px;
+  margin-bottom: 6.944vw;
+  .topRightImage {
+    position: absolute;
+    right: 0;
+    .image {
+      height: 24.444vw;
+      width: 36.458vw;
+    }
+  }
+  .heading {
+    margin-top: 8.333vw;
+    .headingAboutUs {
+      text-align: center;
+      margin: auto;
+      width: 45.139vw;
+    }
+  }
+  .grpImage {
+    margin-top: 5vw;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 8.333vw;
+    .bodyImage {
+      height: 41.181vw;
+      width: 85.486vw;
+    }
+  }
+  .leftRightSpace {
+    margin: 0 6.944vw;
+    text-align: justify;
+    .paragraphBottomMargin {
+      margin-bottom: 6.944vw;
+    }
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .aboutUsBlock {
+       margin-top: 75px;
+  }
+}
+@media only screen and (min-width: 575px) and (max-width: 767px) {
+  .aboutUsBlock {
+       margin-top: 70px;
+  }
+}
+@media only screen and (min-width: 300px) and (max-width: 574px) {
+  .aboutUsBlock {
+       margin-top: 60px;
+  }
+}

@@ -1,0 +1,40 @@
+.featureCardBlock {
+    background: rgba(11, 202, 173, 0.13);
+    margin-bottom: 6.944vw;
+    display: flex;
+    .innerPadding{
+        padding: 38px 3vw;
+        .innerImg {
+            display: flex;
+            justify-content: center;
+            .image {
+              width: 64px;
+              height: 64px;
+            }
+          }
+          .textBlock{
+              text-align: center;
+          }
+    }
+ 
+}
+@media only screen and (min-width: 992px) and (max-width: 1024px) {
+    .featureCardBlock {
+        flex-wrap: wrap;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .featureCardBlock {
+        flex-wrap: wrap;
+    }
+}
+@media only screen and (min-width: 575px) and (max-width: 767px) {
+    .featureCardBlock {
+        flex-wrap: wrap;
+    }
+}
+@media only screen and (min-width: 300px) and (max-width: 574px) {
+    .featureCardBlock {
+        flex-wrap: wrap;
+    }
+}

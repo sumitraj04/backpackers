@@ -1,0 +1,27 @@
+.blogOneBlock {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  .upperImgTexBlock {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top:-80px;
+    .textImgBlock {
+      background-color: white;
+      width: 65.139vw;
+      padding: 5.556vw 3.889vw;
+      box-shadow: 0px 5px 30px 0px rgba(0, 0, 0, 0.2);
+      text-align: justify;
+      .firstTextBlock::first-letter {
+        font-size: 40px;
+      }
+    }
+  }
+  .bloglistMarginBottom {
+    margin: 0vw 5.6vw 8.333vw 5.6vw;
+  }
+  .blogAd{
+    margin: 0vw 5.6vw 8.333vw 5.6vw;
+  }
+}

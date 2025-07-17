@@ -1,0 +1,22 @@
+.signinSignup {
+  background-color: black;
+  background-image: url("../../assets/images/signsignup.svg");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  // background-repeat: no-repeat;
+  .textBlock {
+    width: 80%;
+
+    .subheadingClass {
+      color: #fff;
+      font-family: Lato;
+      font-size: 32px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      letter-spacing: 3.2px;
+    }
+  }
+}
